@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/random/ArrayOfRandomValues.java" />
+      <file url="file://$PROJECT_DIR$/src/random/RandomValue.java" />
+      <file url="file://$PROJECT_DIR$/src/randomStd/test.java" />
+      <file url="file://$PROJECT_DIR$/src/binarySearch/BinarySearch.java" />
+      <file url="file://$PROJECT_DIR$/src/DataTypes/StatsBagClient.java" />
+    </excludeFromCompile>
+  </component>
+</project>
