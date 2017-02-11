@@ -47,6 +47,8 @@ package randomStd;
  *
  ******************************************************************************/
 
+import StdLibrary.StdIn;
+
 import java.util.Random;
 
 /**
@@ -573,7 +575,7 @@ public final class StdRandom {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]);
+        int n = StdIn.readInt();
         if (args.length == 2) StdRandom.setSeed(Long.parseLong(args[1]));
         double[] probabilities = { 0.5, 0.3, 0.1, 0.1 };
         int[] frequencies = { 5, 3, 1, 1 };
@@ -593,5 +595,4 @@ public final class StdRandom {
             StdOut.println();
         }
     }
-
 }
